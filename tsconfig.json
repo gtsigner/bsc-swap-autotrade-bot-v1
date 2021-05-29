@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "outDir": "./build",
+    "strictFunctionTypes": false,
+    "noEmitOnError": false,
+    "esModuleInterop": true,
+    "strict": false,
+    "allowJs": false,
+    "target": "es2018",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "declaration": true,
+    "sourceMap": true,
+    "lib": [
+      "es5",
+      "dom",
+      "es2015"
+    ]
+  },
+  "include": [
+    "./src/**/*",
+  ]
+}
